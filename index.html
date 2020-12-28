@@ -1,0 +1,300 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>WebAseembly presentation</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+
+	<link rel="stylesheet" href="my-style.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-auto-animate data-auto-animate-unmatched="fade" data-transition="zoom-in fade-out">
+				<h2>WebAseembly</h2>
+				<img src="assets/wasm-logo.png" width="400px" height="400px">
+				<h5 class="course">Rolling Scopes School</h5>
+				<h5 class="course">JS/Front-End 2020Q3</h5>
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<ul class="list">
+					<li>Safe</li>
+				</ul>
+			</section>
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<ul class="list">
+					<li>Safe</li>
+					<li>Cross-platform</li>
+				</ul>
+			</section>
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<ul class="list">
+					<li>Safe</li>
+					<li>Cross-platform</li>
+					<li>Convenient for developers</li>
+				</ul>
+			</section>
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<ul class="list">
+					<li>Safe</li>
+					<li>Cross-platform</li>
+					<li>Convenient for developers</li>
+					<li>Zero-configurable</li>
+				</ul>
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<h2>WebAseembly is:</h2>
+				<ul>
+					<li>binary format</li>
+				</ul>
+			</section>
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<h2>WebAseembly is:</h2>
+				<ul>
+					<li>binary format</li>
+					<li>compilation target</li>
+				</ul>
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<div class="r-stack">
+					<img src="assets/ISO_C++_Logo.svg" width="450" height="300" class="fragment">
+					<img src="assets/go.png" width="400" height="400" class="fragment">
+					<img src="assets/rust.png" width="400" height="400" class="fragment">
+					<img src="assets/python.png" width="400" height="400" class="fragment">
+				</div>
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<h2>Angry bots</h2>
+				<img src="assets/angry-bots.jfif" width="1024px" heigh="640px">
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<h2 style="font-size: 40px">December 2019 - w3c standart</h2>
+				<img src="assets/w3c.png" width="640px" heigh="480px">
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<h2>Plugins</h2>
+				<div class="row">
+					<img src="assets/activex.jpg" width="400" height="300">
+					<img src="assets/flash.png" width="400" height="300">
+					<img src="assets/silverlight.jpg" width="300" height="300">
+				</div>
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<h2>Google solutions</h2>
+				<ul>
+					<li>Native Client(NaCl)</li>
+					<li>Portable Native Client(PNaCl)</li>
+				</ul>
+				<img src="assets/native-client.png" width="540px" height="380px">
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<h2>asm.js by Mozilla</h2>
+				<img src="assets/asm-js.PNG" width="500px" height="500px">
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<h2>JS + V8</h2>
+				<div class="row" style="column-gap: 80px">
+					<img src="assets/js-logo.png" width="250" height="250">
+					<img src="assets/v8.png" width="250" height="250">
+				</div>
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<p>WebAssembly is an executable in browser binary format, virtual machine and compilation result from other
+					high lavel program languages.<br> It is not a programming language.</p>
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<img src="assets/wasm-comp.png" width="740" height="550">
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<h2>Goals and constraints</h2>
+				<div class="row">
+					<ul>
+						<h4>semantics</h4>
+						<li>language-independent</li>
+						<li>platform-independent</li>
+						<li>hardware-independent</li>
+						<li>fast to execute</li>
+						<li>safe to execute</li>
+					</ul>
+					<ul>
+						<h4>representation</h4>
+						<li>compact</li>
+						<li>easy to generate</li>
+						<li>fast to decode</li>
+						<li>fast to validate</li>
+						<li>fast to compile</li>
+						<li>streamable</li>
+						<li>parallelisable</li>
+					</ul>
+				</div>
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<div class="row">
+					<ul>
+						<li>WASM loads and executes from JavaScript</li>
+						<li>WASM can be executed only from JavaScript</li>
+						<li>WASM can execute only JavaScript.</li>
+					</ul>
+					<img src="assets/wasm-js.PNG" width="500px" height="300px">
+				</div>
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<section>
+					<h2>Emscripten for C/C++</h2>
+					<img src="assets/ISO_C++_Logo.svg" width="250px" height="250px"><br>
+					<img src="assets/emscripten.png" width="600px" height="250px">
+				</section>
+				<section>
+					<h2>Blazor for C#</h2>
+					<div class="row">
+						<img src="assets/Blazor.png" width="300px" height="300px">
+						<img src="assets/cs.png" width="300px" height="300px">
+					</div>
+				</section>
+				<section>
+					<img src="assets/yew.jfif" width="800px" height="500px">
+				</section>
+				<section>
+					<img src="assets/go.png" width="400px" height="450px">
+					<h2>Golang</h2>
+				</section>
+				<section>
+					<img src="assets/as.PNG" width="800px" height="500px">
+				</section>
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<section>
+					<h2>Assembly script:</h2>
+					<ul>
+						<li>looks like TypeScript</li>
+						<li>4 data types(i32, i64, f32, f64)</li>
+						<li>no dynamic objects</li>
+					</ul>
+				</section>
+				<section>
+					<div style="display: flex; column-gap: 20px;">
+						<img src="assets/as-code.PNG" width="400px" height="450px">
+						<img src="assets/as-wasm-code.PNG" width="550px" height="750px">
+					</div>
+				</section>
+				<section>
+					<img src="assets/as-map.PNG" width="550px" height="350px">
+				</section>
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<section>
+					<img src="assets/figma.png" width="550px" height="350px">
+				</section>
+				<section>
+					<img src="assets/autocad-web.webp" width="1050px" height="650px">
+				</section>
+				<section>
+					<img src="assets/ebay.png" width="550px" height="350px">
+				</section>
+				<section>
+					<img src="assets/twitch.png" width="550px" height="350px">
+				</section>
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<h2>Is WebAssembly going to kill JavaScript?</h2>
+				<div style="display: flex; column-gap: 40px; height:500px">
+					<img style="align-self: flex-start;" src="assets/js-logo.png" width="300px" height="300px">
+					<img style="align-self: center;" src="assets/vs.png" width="300px" height="300px">
+					<img style="align-self: flex-end;" src="assets/wasm-logo.png" width="300px" height="300px">
+				</div>
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<p style="font-size: 35px;">WebAssembly is supported by alomost all modern browsers</p>
+				<img src="assets/wasm-use.PNG" width="1200px" height="550px">
+			</section>
+
+			<!------------------------------------------------------->
+
+			<section data-auto-animate data-transition="zoom-in fade-out">
+				<h2>Thanks for watching!</h2>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
